@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my_tube/static/css/main.03719afc.chunk.css",
-    "main.js": "/my_tube/static/js/main.b45624d2.chunk.js",
-    "main.js.map": "/my_tube/static/js/main.b45624d2.chunk.js.map",
+    "main.css": "/my_tube/static/css/main.0dd6e76a.chunk.css",
+    "main.js": "/my_tube/static/js/main.75afe345.chunk.js",
+    "main.js.map": "/my_tube/static/js/main.75afe345.chunk.js.map",
     "runtime~main.js": "/my_tube/static/js/runtime~main.dcca1c7d.js",
     "runtime~main.js.map": "/my_tube/static/js/runtime~main.dcca1c7d.js.map",
-    "static/js/2.16610dcc.chunk.js": "/my_tube/static/js/2.16610dcc.chunk.js",
-    "static/js/2.16610dcc.chunk.js.map": "/my_tube/static/js/2.16610dcc.chunk.js.map",
+    "static/js/2.c1c95b21.chunk.js": "/my_tube/static/js/2.c1c95b21.chunk.js",
+    "static/js/2.c1c95b21.chunk.js.map": "/my_tube/static/js/2.c1c95b21.chunk.js.map",
     "index.html": "/my_tube/index.html",
-    "precache-manifest.666754af6b5f5f48c02285f2cb04c64d.js": "/my_tube/precache-manifest.666754af6b5f5f48c02285f2cb04c64d.js",
+    "precache-manifest.d5acc0640a0ab263e118585267c6dc80.js": "/my_tube/precache-manifest.d5acc0640a0ab263e118585267c6dc80.js",
     "service-worker.js": "/my_tube/service-worker.js",
-    "static/css/main.03719afc.chunk.css.map": "/my_tube/static/css/main.03719afc.chunk.css.map"
+    "static/css/main.0dd6e76a.chunk.css.map": "/my_tube/static/css/main.0dd6e76a.chunk.css.map"
   }
 }
