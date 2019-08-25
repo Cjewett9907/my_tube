@@ -13,8 +13,12 @@ const VideoMain = ({video}) => {
            <div className="ui embed">
                <iframe src={vidSrc} title={video.snippet.title} />  
             </div>
-           
-            {video.snippet.title}
+            <h2>{video.snippet.title}</h2>
+            <h3>{video.snippet.description}</h3>
+            <h3>Published by: {video.snippet.channelTitle}</h3>
+            
+            
+
        </div> 
     )
 }

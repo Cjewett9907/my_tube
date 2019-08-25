@@ -1,0 +1,8 @@
+[class~=flow]{
+    display: flex;
+    flex-direction: row;
+}
+
+.label-space{
+    width:50%
+}

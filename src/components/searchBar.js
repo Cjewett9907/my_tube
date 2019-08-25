@@ -1,4 +1,5 @@
 import React from 'react'
+import './SearchBar.css'
 
 
 class SearchBar extends React.Component {
@@ -21,14 +22,15 @@ class SearchBar extends React.Component {
 
     render(){
         return(
-        <div className="search-bar ui segment">
+        <div className="ui action input">
             <form onSubmit={this.onFormSubmit} className="ui form">
-                <div className="field">
-                    <label>Video Search</label>
+            <label className="label-space">Video Search</label>
+                <div className="field flow">
+                    
                     <input type="text" 
                     onChange={this.handleChange} 
                     value={this.state.term} />
-
+                    <button class="ui button">Search</button>
                 </div>
             </form>
         </div>
