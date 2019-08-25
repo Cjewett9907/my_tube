@@ -3,6 +3,7 @@ import SearchBar from './SearchBar';
 import youtube from '../api/youtube';
 import VideoList from './VideoList'
 import VideoMain from './VideoMain'
+import ToolBar from './ToolBar'
 
 
 class App extends React.Component{
@@ -36,7 +37,8 @@ class App extends React.Component{
 
         return (
             <div className="ui container">
-                <SearchBar onTermSubmit={this.onTermSubmit} />
+                <ToolBar onTermSubmit={this.onTermSubmit} />
+                {/* <SearchBar onTermSubmit={this.onTermSubmit} /> */}
 
                 <div className="ui grid">
                     <div className="ui row">

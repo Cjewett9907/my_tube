@@ -1,8 +1,31 @@
 [class~=flow]{
     display: flex;
     flex-direction: row;
+    
 }
 
 .label-space{
     width:50%
+}
+
+div[class~=space]{
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.searchfield{
+    width: 500px !important;
+} 
+
+.toobar-flexer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image-thumbnail{
+    max-height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

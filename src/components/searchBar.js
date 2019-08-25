@@ -22,15 +22,17 @@ class SearchBar extends React.Component {
 
     render(){
         return(
-        <div className="ui action input">
+        <div className="ui action input space">
             <form onSubmit={this.onFormSubmit} className="ui form">
             <label className="label-space">Video Search</label>
                 <div className="field flow">
                     
                     <input type="text" 
-                    onChange={this.handleChange} 
-                    value={this.state.term} />
-                    <button class="ui button">Search</button>
+                        className="searchfield"
+                        onChange={this.handleChange} 
+                        value={this.state.term} 
+                    />
+                    <button className="ui button">Search</button>
                 </div>
             </form>
         </div>
