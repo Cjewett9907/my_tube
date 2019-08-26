@@ -8,13 +8,16 @@ const VideoMain = ({video}) => {
     }
 
     const vidSrc = "https://www.youtube.com/embed/" + video.id.videoId
+    const decodeSnippetTitle = decodeURI(video.snippet.title)
+    const decodeSnippetDescription = decodeURI(video.snippet.description)
+    console.log("title is", decodeSnippetTitle, "decript is", decodeSnippetDescription)
     return(
        <div>
            <div className="ui embed">
                <iframe src={vidSrc} title={video.snippet.title} />  
             </div>
-            <h2>{video.snippet.title}</h2>
-            <h3>{video.snippet.description}</h3>
+            <h2>{decodeSnippetTitle}</h2>
+            <h3>{decodeSnippetDescription}</h3>
             <h3>Published by: {video.snippet.channelTitle}</h3>
             
             

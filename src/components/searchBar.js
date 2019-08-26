@@ -24,7 +24,7 @@ class SearchBar extends React.Component {
         return(
         <div className="ui action input space">
             <form onSubmit={this.onFormSubmit} className="ui form">
-            <label className="label-space">Video Search</label>
+            <label className="label-space">MyTube Video Search</label>
                 <div className="field flow">
                     
                     <input type="text" 

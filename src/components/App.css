@@ -1,0 +1,7 @@
+div[class~=padding]{
+    padding-top: 100px;
+}
+
+.main-div{
+    height: 1000px;
+}
