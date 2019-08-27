@@ -12,6 +12,8 @@ div[class~=space]{
     /* border: 1px solid red; */
     margin-bottom: 20px;
     margin-top: 10px;
+    position: absolute;
+    left: -230px
 }
 
 .searchfield{
