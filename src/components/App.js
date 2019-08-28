@@ -15,13 +15,11 @@ class App extends React.Component{
     }
     
     onTermSubmit = async (term) => {
-        //  console.log(term)
         const response = await youtube.get('/search', {
             params: {
                 q: term
             }
         });
-        // console.log(response)
         this.setState({
             videos: response.data.items,
             selectedVideo: response.data.items[0]
@@ -39,9 +37,6 @@ class App extends React.Component{
             <div className="main-div">
                 <ToolBar onTermSubmit={this.onTermSubmit} />
                 <div className="ui container padding">
-                    
-                    {/* <SearchBar onTermSubmit={this.onTermSubmit} /> */}
-
                     <div className="ui grid">
                         <div className="ui row">
                             <div className="eleven wide column">
@@ -50,13 +45,9 @@ class App extends React.Component{
                             <div className="five wide column">
                                 <VideoList videos={this.state.videos} onVideoSelect={this.onVideoSelect} />
                             </div>
-                            
                         </div>
-                        
                     </div>
-                    
                 </div>
-                
             </div>
             )
     }

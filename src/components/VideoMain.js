@@ -19,9 +19,6 @@ const VideoMain = ({video}) => {
             <h2>{decodeSnippetTitle}</h2>
             <h3>{decodeSnippetDescription}</h3>
             <h3>Published by: {video.snippet.channelTitle}</h3>
-            
-            
-
        </div> 
     )
 }
