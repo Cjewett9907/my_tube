@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://cjewett9907.github.io/my_tube",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
